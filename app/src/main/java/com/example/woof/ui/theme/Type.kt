@@ -8,34 +8,34 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.woof.R
 
-val AbrilFatface = FontFamily(
+private val FontFamilyAbrilFatface = FontFamily(
     Font(R.font.abril_fatface_regular)
 )
 
-val Montserrat = FontFamily(
+private val FontFamilyMontserrat = FontFamily(
     Font(R.font.montserrat_regular),
     Font(R.font.montserrat_bold, FontWeight.Bold)
 )
 
 // Set of Material typography styles to start with
-val Typography = Typography(
+val typography = Typography(
     displayLarge = TextStyle(
-        fontFamily = AbrilFatface,
+        fontFamily = FontFamilyAbrilFatface,
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp
     ),
     displayMedium = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = FontFamilyMontserrat,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = FontFamilyMontserrat,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = FontFamilyMontserrat,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     )
