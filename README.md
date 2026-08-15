@@ -4,3 +4,7 @@
 
 #### issues
 - 主题未达到教程效果 TODO
+
+#### 效果
+- 竖屏
+- ![screenshot_portrait](./app/src/main/res/drawable/screenshot_20260815_111216.png)
